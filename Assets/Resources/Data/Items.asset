@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d307f0611b1f67f42a97720fdeaddb98, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier: 
+  itemInfors:
+  - id: 1
+    name: Normal Arow
+    icon: {fileID: 1560674827, guid: df95f404b1266ea44badf920a9a317c6, type: 3}
+    coint: 10
+    type: 1
+    mota: hjkbhbkjb
+    gameObjectPrefab: {fileID: 6213468970123856881, guid: ffeab96489f3c9245bbcea0eff2e5c5e, type: 3}
+  - id: 2
+    name: Boom Arow
+    icon: {fileID: -1321224019, guid: df95f404b1266ea44badf920a9a317c6, type: 3}
+    coint: 75
+    type: 1
+    mota: 
+    gameObjectPrefab: {fileID: 6213468970123856881, guid: f80687195226c6a47ac1e4d2bc0b2c8b, type: 3}
+  - id: 3
+    name: Fire Arow
+    icon: {fileID: -204667214, guid: df95f404b1266ea44badf920a9a317c6, type: 3}
+    coint: 100
+    type: 1
+    mota: 
+    gameObjectPrefab: {fileID: 6213468970123856881, guid: 4fc62824660d3194a908c6c4325410c8, type: 3}
+  - id: 4
+    name: Heal
+    icon: {fileID: 837508866, guid: df95f404b1266ea44badf920a9a317c6, type: 3}
+    coint: 50
+    type: 0
+    mota: 
+    gameObjectPrefab: {fileID: 2697888784004441291, guid: 1f3bb87ce6e40384fbe4ca4a46d99f10, type: 3}
+  - id: 5
+    name: Fix Bow
+    icon: {fileID: 123607970, guid: df95f404b1266ea44badf920a9a317c6, type: 3}
+    coint: 40
+    type: 0
+    mota: 
+    gameObjectPrefab: {fileID: 2521956013616095720, guid: 7f9c8382af99ad948a3c2720b7574e52, type: 3}
+  itemUIShop: {fileID: 8394171821731193177, guid: 31fa5dc15179f5c4cabcee74385d3bcb, type: 3}
