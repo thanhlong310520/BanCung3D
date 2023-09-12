@@ -162,8 +162,15 @@ public class MainUI : MonoBehaviour
     {
         GameManager.Instance.SaveInformation();
         GameManager.Instance.ResetGame();
-        SceneCtrl.Instance.sceneChoosed++;
-        GameManager.Instance.SaveLevelPass();
-        SceneCtrl.Instance.LoadBuyScene();
+        if(GameManager.Instance.levelMax == SceneCtrl.Instance.sceneChoosed)
+        {
+            SceneCtrl.Instance.LoadStartScene();
+        }
+        else
+        {
+            SceneCtrl.Instance.sceneChoosed++;
+            GameManager.Instance.SaveLevelPass();
+            SceneCtrl.Instance.LoadBuyScene();
+        }
     }
 }

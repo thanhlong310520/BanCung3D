@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d0e334f58102f44887afaa0bc0d929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countHealer: 5
+  countHealer: 25
   lifeTime: 0.75
   vfx: {fileID: 3898771736082755086}
   audioClip: {fileID: 8300000, guid: c48a972d3d024c2408a3331750786a29, type: 3}

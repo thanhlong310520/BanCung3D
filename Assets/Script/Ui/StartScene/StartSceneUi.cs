@@ -47,6 +47,7 @@ public class StartSceneUi : MyMonoBehaviour
     }
     protected override void Start()
     {
+        numberLevel = GameManager.Instance.levelMax;
         InstantiateButtonLevels();
         base.Start();
         mainUI.SetActive(true);

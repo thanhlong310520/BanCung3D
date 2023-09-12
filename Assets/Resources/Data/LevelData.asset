@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ac9833a1ede3d544a57dc3cf1ed193f, type: 3}
   m_Name: LevelData
   m_EditorClassIdentifier: 
-  listMoneyLevel: 00000000e8030000d0070000b80b0000a00f0000
+  listMoneyLevel: 00000000e8030000d0070000b80b0000a00f000070170000

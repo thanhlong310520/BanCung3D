@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     bool isWin;
     public List<ItemOwner> beginItems;
     public List<ItemOwner> testList;
+    public int levelMax = 5; 
     private void Awake()
     {
         if (instance != null)

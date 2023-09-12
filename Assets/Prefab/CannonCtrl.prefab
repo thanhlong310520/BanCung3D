@@ -71,7 +71,7 @@ MonoBehaviour:
     m_Bits: 64
   partToRotate: {fileID: 4043850743376272357}
   shooting: {fileID: 5380247690057277932}
-  fireRate: 0.5
+  fireRate: 0.4
   fireCountDown: 0
   ui: {fileID: 4594046377502549999}
   damageRecceiver: {fileID: 6896801190569525457}
